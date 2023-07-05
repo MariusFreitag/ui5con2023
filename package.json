@@ -1,0 +1,22 @@
+{
+  "name": "ui5con2023",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^6.8.2",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "sqlite3": "^5",
+    "cds-plugin-ui5": "^0.1.4"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-managetravels": "cds watch --open managetravels/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/managetravels"
+  ]
+}

@@ -1,0 +1,39 @@
+<core:FragmentDefinition xmlns="sap.m"
+  xmlns:macros="sap.fe.macros"
+  xmlns:l="sap.ui.layout"
+  xmlns:f="sap.ui.layout.form"
+  xmlns:core="sap.ui.core">
+
+  <Dialog title="Opt for Trees-4-Tickets"
+    icon="sap-icon://flight"
+    id="Trees4Tickets"
+    contentWidth="20rem">
+    <content>
+      <VBox id="vbox"
+        class="sapUiSmallMarginTop sapUiSmallMarginBottom sapUiSmallMarginBeginEnd">
+
+        <MessageStrip id="messageStrip"
+          text="Plant some trees with a one percent fee on your Travel Price"
+          class="sapUiTinyMarginBottom"
+          type="Success">
+        </MessageStrip>
+
+        <Switch id="switch"
+          state="{GoGreen}"
+          customTextOn="Yes"
+          customTextOff="No" />
+
+      </VBox>
+    </content>
+    <beginButton>
+      <Button id="Save"
+        text="Save"
+        type="Emphasized" />
+    </beginButton>
+    <endButton>
+      <Button id="Cancel"
+        text="Cancel" />
+    </endButton>
+  </Dialog>
+
+</core:FragmentDefinition>
