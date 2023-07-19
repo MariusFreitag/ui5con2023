@@ -1,6 +1,6 @@
 # UI5con 2023 - Develop SAP Fiori apps in TypeScript using SAP Fiori tools
 
-This repository contains the final demo result of the [UI5con 2023](https://openui5.org/ui5con/germany2023) session "Develop SAP Fiori apps in TypeScript using SAP Fiori tools". Expect that there are small differences between this repository and the application built in the demo, as this reference was created beforehand.
+This repository contains the [slides](slides.pdf) and final demo result of the [UI5con 2023](https://openui5.org/ui5con/germany2023) session "Develop SAP Fiori apps in TypeScript using SAP Fiori tools". Expect that there are small differences between this repository and the application built in the demo, as this reference was created beforehand.
 
 A longer version of this demo is available in the detailed hands-on session ["Boost Your Productivity In Developing SAPUI5 apps With SAP Fiori Tools"](https://github.com/c-kobo/ui5con2023).
 
